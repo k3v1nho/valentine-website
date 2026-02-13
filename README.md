@@ -34,7 +34,7 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jade"                    // Your Valentine's name
+valentineName: "Лиечка"                    // Your Valentine's name
 pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
 
 // Floating Background Elements
@@ -46,13 +46,13 @@ floatingEmojis: {
 // Questions and Buttons
 questions: {
     first: {
-        text: "Do you like me?",                   // First question
-        yesBtn: "Yes",                             // Yes button text
-        noBtn: "No",                               // No button text
+        text: "Я тебе нравлюсь Котик?",                   // First question
+        yesBtn: "Да",                             // Yes button text
+        noBtn: "Нет",                               // No button text
         secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
     },
     second: {
-        text: "How much do you love me?",          // Second question
+        text: "Как сильно ты менч любишь?",          // Second question
         startText: "This much!",                   // Text before percentage
         nextBtn: "Next ❤️"                         // Next button text
     },
@@ -65,15 +65,15 @@ questions: {
 
 // Love Meter Messages
 loveMessages: {
-    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
-    high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
-    normal: "And beyond! 🥰"                           // Shows above 100%
+    extreme: "ЛУЧШАЯ МОЯ Я ТЕБЯ ТАК ЛЮБЛЮЮЮ ЛИЯЯ 🥰🚀💝",  // Shows above 5000%
+    high: "БЕЗУМНО ТЕБЯ ЛЮБЛЮЮЮ🚀💝",              // Shows above 1000%
+    normal: "Я ТЕБЯ ЛЮБЛЮ 🥰"                           // Shows above 100%
 }
 
 // Final Celebration
 celebration: {
-    title: "Yay! I'm the luckiest person...",     // Celebration title
-    message: "Now come get your gift...",          // Celebration message
+    title: "а чо я твой любимый получаетсааа..",     // Celebration title
+    message: "Я тебя безумно люблю..",          // Celebration message
     emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
 }
 
@@ -98,7 +98,7 @@ animations: {
 music: {
     enabled: true, // Music feature is enabled
     autoplay: true, // Try to autoplay (note: some browsers may block this)
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your music URL here
+    musicUrl: "https://open.spotify.com/track/5rc7178sa2YRDlBFBHY0e8?si=viIJX6bATJaWT0pinUEBSg", // Paste your music URL here
     startText: "🎵 Play Music", // Button text to start music
     stopText: "🔇 Stop Music", // Button text to stop music
     volume: 0.5 // Volume level (0.0 to 1.0)
@@ -135,7 +135,7 @@ Want to make it extra special with your own romantic song? Follow these steps to
 music: {
     enabled: true,
     autoplay: true,
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your URL here
+    musicUrl: "https://open.spotify.com/track/5rc7178sa2YRDlBFBHY0e8?si=viIJX6bATJaWT0pinUEBSg", // Paste your URL here
     startText: "🎵 Play Music",
     stopText: "🔇 Stop Music",
     volume: 0.5
